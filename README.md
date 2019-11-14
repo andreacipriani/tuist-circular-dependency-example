@@ -8,10 +8,10 @@ Reproduce a potential error with circular dependencies between Projects in [Tuis
 We have a project with two frameworsk: `Core` and `Testing`.
 
 `Core` has two targets: `Core` and `CoreTests`
-- Core doesn't depend on anything
-- Core tests depends on `Core` and on `Testing`
+- `Core` doesn't depend on anything
+- `CoreTests` depends on `Core` and on `Testing`
 
-Testing depends on Core (not: and *not* on `CoreTests`)
+`Testing` depends on `Core` and *not* on `CoreTests`
 
 ### Reproduction steps:
 
