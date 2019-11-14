@@ -1,3 +1,8 @@
+### Update:
+
+Fixed https://github.com/tuist/tuist/issues/666#issuecomment-553884727
+
+
 # tuist-circular-dependency-example
 
 Reproduce a potential error with circular dependencies between Projects in [Tuist](www.github.com/tuist/tuist).
