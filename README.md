@@ -3,9 +3,11 @@
 Reproduce a potential error with circular dependencies between Projects in [Tuist](www.github.com/tuist/tuist).
 
 
-### Frameworks
+### The project
 
-We have Core with two targets: `Core` and `CoreTests`
+We have a project with two frameworsk: `Core` and `Testing`.
+
+`Core` has two targets: `Core` and `CoreTests`
 - Core doesn't depend on anything
 - Core tests depends on `Core` and on `Testing`
 
