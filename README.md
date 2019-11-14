@@ -13,7 +13,7 @@ We have a project with two frameworsk: `Core` and `Testing`.
 
 `Testing` depends on `Core` and *not* on `CoreTests`
 
-![diagram](diagram.png")
+![diagram](https://raw.githubusercontent.com/andreacipriani/tuist-circular-dependency-example/master/diagram.png)
 
 ### Reproduction steps:
 
